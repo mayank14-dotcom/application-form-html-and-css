@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+    <style>
+        aside{
+            background-color: rgb(151, 245, 20);
+            text-align: center;
+            height:80px;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        .form-box{
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid #444;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            background: #32F20C;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <aside><h1>Application Form</h1></aside>
+    <div class="form-box">
+        <label>Name:</label>
+        <input type="text" placeholder="enter your name:"><br><br>
+        
+        <label>Age</label>
+        <input type="age:" placeholder="enter your age:"><br><br>
+
+        <select>
+          <option>Choose your Domain!</option>
+          <option value="IT">IT</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Design">Design</option>
+          <option value="Business Management">Business Management</option>
+          <option value="Arts & Commerce">Arts & Commerce</option></option>
+          <option value="Other">Other</option>
+        </select><br><br>
+
+        <h4>Graduation Year:</h4>
+        <select ="Graduation Year:">
+            <option value="Choose">Choose your Graduation year!</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="other">other</option>
+        </select><br><br>
+
+        <h4>Gender:</h4>
+        <input type="radio" name="gender" value="male"> Male  
+        <input type="radio" name="gender" value="female"> Female  
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+
+        <h4>Highest education Qualification:</h4>
+        <input type="radio" name="education" value="12" >12<br>
+        <input type="radio" name="Undergraduate" value="Undergraduate">Undergraduate<br>
+        <input type="radio" name="Postgraduate" value="Postgraduate">Postgraduate<br>
+        <input type="radio" name="Diploma" value="Diploma">Diploma<br>
+        <input type="radio" name="Others" value="Others">Others<br><br>
+
+        <h4>Course pursuing:</h4>
+        <select>
+            <option value="Choose your pursuing subject:">Choose your pursuing subject:</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BCA">BCA</option>
+            <option value="B.COM/BBA">B.COM / BBA</option>
+            <option value="BA/Arts and Commerce">BA / Arts and Commerce</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.TECH">M.TECH</option>
+            <option value="others">others</option><br><br>
+            <br>
+
+            <label>Phone Number:</label>
+            <input type="Phone Number:" placeholder="enter your phone number:"><br><br>
+
+            <label>Country:</label>
+            <input type="age:" placeholder="enter your country:"><br><br>
+
+            <label>State/City:</label>
+            <input type="State/City:" placeholder="Enter your state and city"><br><br>
+
+            <label>University/College Name:</label>
+            <input type="University/College Name:" placeholder="Enter your college or University Name"<br><br>
+            <br>
+            <br>
+            <br>
+
+            <div style="text-align: center;">
+                <button>Submit</button>
+            </div>
+        </select>
+    </div>
+
+</body>
+</html>
